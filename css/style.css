@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* A light grey for a clean look */
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 2em 1em;
+    text-align: center;
+    border-bottom: 2px solid #007bff; /* A clean blue line for branding */
+}
+
+h1 {
+    color: #007bff; /* Primary brand color */
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #333;
+    color: #ffffff;
+    margin-top: 2em;
+}
