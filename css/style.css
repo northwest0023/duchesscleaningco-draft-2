@@ -43,3 +43,93 @@ footer {
     color: #ffffff;
     margin-top: 2em;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding-top: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+.trust-signals {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #f9f9f9;
+}
+
+.trust-signals h2 {
+    color: #007bff;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.signals-container {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.signal {
+    flex-basis: 200px;
+    padding: 1em;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.signal img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+.signal p {
+    margin: 0;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 1em;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.confirmation {
+    text-align: center;
+    padding: 2em;
+    color: #ffffff;
+    background-color: #28a745;
+    border-radius: 8px;
+}
